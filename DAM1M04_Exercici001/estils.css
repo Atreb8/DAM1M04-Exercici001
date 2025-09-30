@@ -6,3 +6,12 @@ body{
     color: orange;
     cursor: pointer;
 }
+.verd{
+    color: green;
+}
+.vermell{
+    color: rgb(231, 75, 75);
+}
+.blau{
+    color: rgb(54, 84, 231);
+}
