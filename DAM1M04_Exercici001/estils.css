@@ -2,7 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.wikipedia:hover{
+a:hover{
     color: orange;
     cursor: pointer;
 }
@@ -29,4 +29,14 @@ body{
 }
 .subratllat{
     text-decoration: underline;
+}
+
+p::before {
+    content: "👉 ";
+    color: blue;
+}
+
+p::after {
+    content: " ✔";
+    color: green;
 }
